@@ -1,0 +1,136 @@
+.Home{
+    background-image: url('../assets/img6.jpeg');
+    background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.home-content {
+    text-align: center;
+    padding: 40px; 
+    /* margin-bottom: 80px; */
+    margin-left: 360px;
+}
+.home-content h1{
+    font-size: 3.5rem;
+    color:#472A2b;
+    font-weight: 600;
+
+}
+.home-content h3{
+    font-size: 2rem;
+    color: #56382e;
+    font-weight: 500;
+}
+.home-button button{
+    border: none;
+    outline: none;
+    margin-left: 5px;
+    width: 100px;
+    height: 38px;
+    border-radius: 5px;
+    background-color: beige;
+    color: #472A2b;
+    font-weight: bold;
+}
+.home-button{
+    margin-right: 5px;
+}
+.home-button button:hover{
+    background-color: #472A2b;
+    color: beige;
+}
+
+
+
+
+/* Media Queries for Responsiveness */
+@media (max-width: 1200px) {
+    .home-content {
+      padding: 30px;
+    }
+  
+    .home-content h1 {
+      font-size: 3rem;
+    }
+  
+    .home-content h3 {
+      font-size: 1.8rem;
+    }
+  }
+  
+  @media (max-width: 992px) {
+    .home-content {
+      padding: 20px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  
+    .home-content h1 {
+      font-size: 2.5rem;
+    }
+  
+    .home-content h3 {
+      font-size: 1.6rem;
+    }
+  
+    .home-button button {
+      width: 90px;
+      height: 35px;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .home-content {
+      padding: 15px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  
+    .home-content h1 {
+      font-size: 2rem;
+    }
+  
+    .home-content h3 {
+      font-size: 1.4rem;
+    }
+  
+    .home-button {
+      flex-direction: column;
+    }
+  
+    .home-button button {
+      width: 80px;
+      margin: 5px 0;
+      margin-left: 5px;
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .home-content {
+      padding: 10px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  
+    .home-content h1 {
+      font-size: 1.8rem;
+    }
+  
+    .home-content h3 {
+      font-size: 1.2rem;
+    }
+  
+    .home-button button {
+      width: 70px;
+      height: 30px;
+      margin-left: 5px;
+    }
+  }

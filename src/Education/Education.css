@@ -1,0 +1,86 @@
+.Education{
+    margin: 70px 60px;
+
+}
+.Education h1{
+    font-weight: 550;
+    /* text-decoration: underline; */
+    color: #56382e;
+}
+
+
+
+.Cards .card {
+    height: 180px;
+    border: none;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .Cards .card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
+  }
+  
+  .Cards .card-body {
+    padding: 20px;
+  }
+  
+  .Cards .card-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #56382e;
+  }
+  
+  .Cards .card-subtitle {
+    font-size: 1rem;
+    /* color: #888; */
+    margin-bottom: 15px;
+    color: #56382e;
+
+  }
+  
+  .Cards .card-text {
+    font-size: 1rem;
+    color: #56382e;
+    line-height: 1.5;
+    margin-bottom: 20px;
+  }
+  
+  .Cards .card-link {
+    font-size: 0.9rem;
+    color: #007bff;
+    transition: color 0.2s ease;
+  }
+  
+  .Cards .card-link:hover {
+    color: #0056b3;
+  }
+
+
+
+
+  @media (max-width: 768px) {
+    .Education {
+      margin: 50px 30px;
+    }
+    .Cards .card{
+        height: 195px;
+    }
+  
+    .Education h1 {
+      font-size: 2rem;
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .Education {
+      margin: 40px 20px;
+    }
+  
+    .Education h1 {
+      font-size: 1.75rem;
+    }
+  }
