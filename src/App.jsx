@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import './App.css'
-import 'bootstrap/dist/css/bootstrap.min.css';
+import './bootstrap/dist/css/bootstrap.min.css';
 import Header from './Header/Header'
 import Home from './Home/Home'
 import About from './About/About'
