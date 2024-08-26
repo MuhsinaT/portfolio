@@ -8,7 +8,6 @@ import img8 from '../assets/img8.jpg'
 import img9 from '../assets/img9.jpg'
 import img10 from '../assets/img10.jpg'
 import img11 from '../assets/img11.jpg'
-import { Link } from 'react-router-dom';
 
 
 
